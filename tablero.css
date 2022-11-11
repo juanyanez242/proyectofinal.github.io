@@ -1,0 +1,41 @@
+body{
+   
+    height: 600px;
+    background-size: 25rem;
+    background-image : url(./img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+} 
+
+
+.tablero {
+    width: 700px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    background-color:#ffd4a4;
+    border:dotted thin black;
+    
+    
+}
+.tablero *{
+    text-align: center;
+    font-size:60px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+}
+.tablero *:hover{
+    font-weight: 600;
+}
+.a{
+    
+    background-color: #a5682a;
+}
+
+
+
